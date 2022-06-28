@@ -1,0 +1,132 @@
+.left-hero{
+    display: none;
+
+}
+
+
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* repeat(auto-fit, minmax(275px, 0.5fr)); */
+    grid-template-rows: auto;
+    grid-auto-rows: auto;
+    justify-content: center;
+
+    border: var(--nav-border);
+    border-radius: 50px;
+    margin-bottom: 50px;
+
+}
+
+.menu-item {
+    border-bottom: var(--nav-border);
+    aspect-ratio: 1;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr;
+    justify-items: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.menu-img {
+    width: 55%;
+}
+
+
+.menu-item:nth-child(odd) {
+    border-right: var(--nav-border);
+}
+
+.menu-item:last-child,
+.menu-item:nth-last-child(2):nth-child(odd) {
+    border-bottom: none;
+}
+
+.info {
+    justify-self: end;
+    padding-right: 15px;
+    width: 100%;
+    position: relative;
+}
+
+.product-name,
+.product-price {
+    font-family: var(--nimbus);
+    color: var(--main-color);
+    text-align: right;
+}
+
+.product-name {
+    font-size: clamp(1rem, 4.5vw, 1.4rem);
+}
+
+.product-price {
+    font-style: italic;
+    font-size: clamp(1rem, 3vw, 2rem);
+
+}
+
+.product-name::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f055";
+    position: absolute;
+    left: 10px;
+    opacity: 0.5;
+}
+
+.menu-item:hover .product-name::before {
+    opacity: 1;
+}
+
+@media only screen and (min-width: 1250px) {
+    .menu-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .menu-item {
+        border-right: var(--nav-border);
+    }
+
+    .menu-item:nth-child(3n+3) {
+        border-right: none;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    
+ 
+    .left-hero {
+        height: 100%;
+        width: 49%;
+        position: fixed;
+        z-index: 1;
+        overflow-x: hidden;
+        top: 100px;
+        left: 0;
+        display: block;
+    }
+
+    .img-side {
+        width: 100%;
+        height: calc(100vh - 100px);
+        object-fit: cover;
+        object-position: center;
+        position: sticky;
+    }
+
+    .right-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "image menu";
+        gap: 30px;
+    }
+
+    .menu {
+        grid-area: menu;
+    }
+
+}
