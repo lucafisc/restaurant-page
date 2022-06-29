@@ -1,0 +1,94 @@
+@import "~normalize.css/normalize.css";
+
+@font-face {
+    font-family: "Nimbus Sans L";
+    src: url('../../typefaces/nimbus-sans-l_bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Nimbus Sans L";
+    src: url('../../typefaces/nimbus-sans-l_regular-condensed-italic.ttf');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Young Serif";
+    src: url('../../typefaces/YoungSerif-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+:root {
+    --main-color: #e55637;
+    --secondary-color: #f9aa0d;
+    --background-color: #efc7c5;
+    --nimbus: "Nimbus Sans L";
+    --young-serif: "Young Serif";
+    --nav-border: 2px solid var(--main-color);
+    --media-query-width:
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+/* content */
+.content {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+/* text */
+
+.title {
+    font-family: "Young Serif";
+    color: var(--main-color);
+    font-size: 40px;
+    justify-self: start;
+}
+
+.secondary-text {
+    font-family: var(--nimbus);
+    color: var(--main-color);
+    padding-bottom: 20px;
+}
+
+
+.relative-container {
+    position: relative;
+    left: 20px;
+    margin-bottom: 50px;
+}
+
+.text-backdrop {
+    position: absolute;
+    top: -18px;
+    left: -20px;
+    z-index: -1;
+    width: 100px;
+}
+
+@media only screen and (min-width: 1000px) {
+    .title {
+        font-size: 50px;
+    }
+
+    .text-backdrop {
+        width: 125px;
+    }
+
+    .relative-container {
+        margin-bottom: 80px;
+    }
+}

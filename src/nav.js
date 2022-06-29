@@ -13,7 +13,7 @@ export const loadNav = () => {
     menuListItem.classList.add("nav-item");
     aboutListtItem.classList.add("nav-item");
 
-    logo.src = "../images/logo/sushi-logo-01.svg";
+    logo.src = "../images/svg/sushi-logo-01.svg";
     logo.alt = "Sushi logo";
     homeListItem.textContent = "Home";
     menuListItem.textContent = "Menu";

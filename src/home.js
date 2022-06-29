@@ -8,10 +8,10 @@ export const loadHome = () => {
 
     hero.classList.add("hero");
     imgContainer.classList.add("img-container");
-    star.classList.add("rotate-clockwise", "star");
-    heroSushi.classList.add("rotate-counter-clockwise", "img-on-top");
-    text1.classList.add("title", "text1");
-    text2.classList.add("title", "text2");
+    star.classList.add("rotate-clockwise", "star", "focus-in");
+    heroSushi.classList.add("rotate-counter-clockwise", "img-on-top", "focus-in");
+    text1.classList.add("title", "text1", "tracking-in-expand-1");
+    text2.classList.add("title", "text2","tracking-in-expand-2" );
 
     star.src = "../images/svg/star.svg";
     star.alt = "star yellow shape"
