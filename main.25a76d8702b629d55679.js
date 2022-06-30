@@ -5817,7 +5817,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#map {\n    width: 100%;\n    height: 500px;\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -6041,6 +6041,51 @@ module.exports = function (url, options) {
 module.exports = function (i) {
   return i[1];
 };
+
+/***/ }),
+
+/***/ "./src/images/home/hero-sushi.png":
+/*!****************************************!*\
+  !*** ./src/images/home/hero-sushi.png ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "imgs/hero-sushi.2d0756abbe9db93e861d3ec389bcd9fa.png");
+
+/***/ }),
+
+/***/ "./src/images/menu/sushi-plate.jpg":
+/*!*****************************************!*\
+  !*** ./src/images/menu/sushi-plate.jpg ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "imgs/sushi-plate.117310137fc07cea3babbe034d6703da.jpg");
+
+/***/ }),
+
+/***/ "./src/images/svg/star.svg":
+/*!*********************************!*\
+  !*** ./src/images/svg/star.svg ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "imgs/star.ce5a87590b0b27e8aab17279b0c1074b.svg");
 
 /***/ }),
 
@@ -6853,6 +6898,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "loadHome": () => (/* binding */ loadHome)
 /* harmony export */ });
+/* harmony import */ var _images_svg_star_svg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./images/svg/star.svg */ "./src/images/svg/star.svg");
+/* harmony import */ var _images_home_hero_sushi_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./images/home/hero-sushi.png */ "./src/images/home/hero-sushi.png");
+
+
+
+
 const loadHome = () => {
     const hero = document.createElement("div");
     const imgContainer = document.createElement("div");
@@ -6868,9 +6919,9 @@ const loadHome = () => {
     text1.classList.add("title", "text1", "tracking-in-expand-1");
     text2.classList.add("title", "text2","tracking-in-expand-2" );
 
-    star.src = "../images/svg/star.svg";
+    star.src = _images_svg_star_svg__WEBPACK_IMPORTED_MODULE_0__["default"];
     star.alt = "star yellow shape"
-    heroSushi.src = "../images//home/hero-sushi.png";
+    heroSushi.src = _images_home_hero_sushi_png__WEBPACK_IMPORTED_MODULE_1__["default"];
     heroSushi.alt = "Rotating picture of Sushi";
     text1.textContent = "We love everything";
     text2.textContent = "about sushi.";
@@ -6928,6 +6979,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "loadMenu": () => (/* binding */ loadMenu)
 /* harmony export */ });
 /* harmony import */ var _titles_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./titles.js */ "./src/titles.js");
+/* harmony import */ var _images_menu_sushi_plate_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./images/menu/sushi-plate.jpg */ "./src/images/menu/sushi-plate.jpg");
+
+
 
 
 let sushi = [
@@ -7023,16 +7077,7 @@ for (let i=0; i<array.length; i++) {
     productName.classList.add("product-name");
     productPrice.classList.add("product-price");
 
-
-    console.log(array[i]["img"]);
-    console.log(array[i]["name"]);
-    console.log(array[i]["price"]);
-
-    console.log("../images/menu/" + array[i]["img"] + ".png");
-
-
-
-    menuImg.src = "../images/menu/" + array[i]["img"] + ".png";
+    menuImg.src = "./images/menu/" + array[i]["img"] + ".png";
     productName.textContent = array[i]["name"];
     productPrice.textContent = "$" + array[i]["price"];
 
@@ -7061,7 +7106,7 @@ menu.classList.add("menu");
 favoritesGrid.classList.add("menu-grid");
 drinksGrid.classList.add("menu-grid");
 
-heroImg.src = "../images/menu/sushi-plate.jpg";
+heroImg.src = _images_menu_sushi_plate_jpg__WEBPACK_IMPORTED_MODULE_1__["default"];
 
 createGridElements (favoritesGrid, sushi);
 createGridElements (drinksGrid, drinks);
@@ -7111,7 +7156,7 @@ const loadNav = () => {
     menuListItem.classList.add("nav-item");
     aboutListtItem.classList.add("nav-item");
 
-    logo.src = "../images/svg/sushi-logo-01.svg";
+    logo.src = "./images/svg/sushi-logo.svg";
     logo.alt = "Sushi logo";
     homeListItem.textContent = "Home";
     menuListItem.textContent = "Menu";
@@ -7145,6 +7190,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "buildTitle": () => (/* binding */ buildTitle)
 /* harmony export */ });
+/* harmony import */ var _images_svg_star_svg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./images/svg/star.svg */ "./src/images/svg/star.svg");
+
+
 function buildTitle(myText) {
     const container = document.createElement("div");
     const text = document.createElement("h1");
@@ -7155,7 +7203,7 @@ function buildTitle(myText) {
     starBackground.classList.add("text-backdrop", "rotate-clockwise");
 
     text.textContent = myText;
-    starBackground.src = "../images/svg/star.svg"
+    starBackground.src = _images_svg_star_svg__WEBPACK_IMPORTED_MODULE_0__["default"];
 
     container.append(text, starBackground);
     
