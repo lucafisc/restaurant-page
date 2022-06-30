@@ -1,3 +1,7 @@
+import starSrc from "./images/svg/star.svg";
+import sushiSrc from "./images/home/hero-sushi.png";
+
+
 export const loadHome = () => {
     const hero = document.createElement("div");
     const imgContainer = document.createElement("div");
@@ -13,9 +17,9 @@ export const loadHome = () => {
     text1.classList.add("title", "text1", "tracking-in-expand-1");
     text2.classList.add("title", "text2","tracking-in-expand-2" );
 
-    star.src = "../images/svg/star.svg";
+    star.src = starSrc;
     star.alt = "star yellow shape"
-    heroSushi.src = "../images//home/hero-sushi.png";
+    heroSushi.src = sushiSrc;
     heroSushi.alt = "Rotating picture of Sushi";
     text1.textContent = "We love everything";
     text2.textContent = "about sushi.";

@@ -1,4 +1,6 @@
 import { buildTitle } from "./titles.js";
+import heroSrc from "./images/menu/sushi-plate.jpg";
+
 
 let sushi = [
     {
@@ -93,16 +95,7 @@ for (let i=0; i<array.length; i++) {
     productName.classList.add("product-name");
     productPrice.classList.add("product-price");
 
-
-    console.log(array[i]["img"]);
-    console.log(array[i]["name"]);
-    console.log(array[i]["price"]);
-
-    console.log("../images/menu/" + array[i]["img"] + ".png");
-
-
-
-    menuImg.src = "../images/menu/" + array[i]["img"] + ".png";
+    menuImg.src = "./images/menu/" + array[i]["img"] + ".png";
     productName.textContent = array[i]["name"];
     productPrice.textContent = "$" + array[i]["price"];
 
@@ -131,7 +124,7 @@ menu.classList.add("menu");
 favoritesGrid.classList.add("menu-grid");
 drinksGrid.classList.add("menu-grid");
 
-heroImg.src = "../images/menu/sushi-plate.jpg";
+heroImg.src = heroSrc;
 
 createGridElements (favoritesGrid, sushi);
 createGridElements (drinksGrid, drinks);
