@@ -1,25 +1,6 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./app/test.js":
-/*!*********************!*\
-  !*** ./app/test.js ***!
-  \*********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "test": () => (/* binding */ test)
-/* harmony export */ });
-function test() {
-    console.log("test");
-}
-
-
-
-/***/ }),
-
 /***/ "./node_modules/@fortawesome/fontawesome-free/js/all.js":
 /*!**************************************************************!*\
   !*** ./node_modules/@fortawesome/fontawesome-free/js/all.js ***!
@@ -5770,7 +5751,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".hero {\n    display: grid;\n    grid-template-areas:\n        \"img\"\n        \"text1\"\n        \"text2\";\n    grid-template-columns: 1fr;\n    grid-template-rows: 2fr 1fr 1fr;\n    height: calc(100vh - 100px);\n    justify-items: center;\n    align-items: center;\n}\n\n\n.img-container {\n    position: relative;\n    top: 0;\n    left: 0;\n    display: flex;\n    justify-content: center;\n    width: min(400px, 100%);\n    height: fit-content;\n    margin: 0 auto;\n    grid-area: img;\n}\n\n.star {\n    position: relative;\n    width: 80%;\n}\n\n.img-on-top {\n    position: absolute;\n    z-index: 1;\n    margin: auto;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    width: 60%;\n}\n\n\n.text1 {\n    grid-area: text1;\n    align-self: end;\n}\n\n.text2 {\n    grid-area: text2;\n    align-self: start;\n}\n\n\n@media only screen and (min-width: 1000px) {\n    .hero {\n        grid-template-areas:\n            \"text1 text1\"\n            \"img text2\";\n        grid-template-columns: 1fr 1fr;\n        grid-template-rows: 1fr 1.5fr;\n    }\n\n    .text1 {\n        justify-self: start;\n        align-self: end;\n    }\n\n    .img-container {\n        max-width: 350px;\n        justify-self: end;\n        align-self: start;\n        margin: 0;\n        margin-right: -50px;\n    }\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".hero {\n    display: grid;\n    grid-template-areas:\n        \"img\"\n        \"text1\"\n        \"text2\";\n    grid-template-columns: 1fr;\n    grid-template-rows: 2fr 1fr 1fr;\n    height: calc(100vh - 100px);\n    justify-items: center;\n    align-items: center;\n}\n\n\n.img-container {\n    position: relative;\n    top: 0;\n    left: 0;\n    display: flex;\n    justify-content: center;\n    width: min(400px, 100%);\n    height: fit-content;\n    margin: 0 auto;\n    grid-area: img;\n}\n\n.star {\n    position: relative;\n    width: 80%;\n}\n\n.img-on-top {\n    position: absolute;\n    z-index: 1;\n    margin: auto;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    width: 60%;\n}\n\n\n.text1 {\n    grid-area: text1;\n    align-self: end;\n}\n\n.text2 {\n    grid-area: text2;\n    align-self: start;\n}\n\n\n@media only screen and (min-width: 1000px) {\n    .hero {\n        grid-template-areas:\n            \"text1 none\"\n            \"img text2\";\n        grid-template-columns: 1fr 1fr;\n        grid-template-rows: 1fr 1.5fr;\n    }\n\n    .text1 {\n        justify-self: end;\n        align-self: end;\n        text-align: right;\n    }\n\n    .img-container {\n        max-width: 350px;\n        justify-self: end;\n        align-self: start;\n        margin: 0;\n        margin-right: -50px;\n    }\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -5809,7 +5790,7 @@ var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_g
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_3___default()(___CSS_LOADER_URL_IMPORT_1___);
 var ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_3___default()(___CSS_LOADER_URL_IMPORT_2___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "@font-face {\n    font-family: \"Nimbus Sans L\";\n    src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n    font-weight: bold;\n    font-style: normal;\n}\n\n@font-face {\n    font-family: \"Nimbus Sans L\";\n    src: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n    font-weight: normal;\n    font-style: italic;\n}\n\n@font-face {\n    font-family: \"Young Serif\";\n    src: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n    font-weight: normal;\n    font-style: normal;\n}\n\n*, *::before, *::after {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    font-size: 100%;\n}\n\n:root {\n    --main-color: #e55637;\n    --secondary-color: #f9aa0d;\n    --background-color: #efc7c5;\n    --nimbus: \"Nimbus Sans L\";\n    --young-serif: \"Young Serif\";\n    --nav-border: 2px solid var(--main-color);\n    --media-query-width:\n}\n\nbody {\n    background-color: var(--background-color);\n}\n\n/* content */\n.content {\n    max-width: 1600px;\n    margin: 0 auto;\n    padding: 0 30px;\n}\n\n/* text */\n\n.title {\n    font-family: \"Young Serif\";\n    color: var(--main-color);\n    font-size: 40px;\n    justify-self: start;\n}\n\n.secondary-text {\n    font-family: var(--nimbus);\n    color: var(--main-color);\n    padding-bottom: 20px;\n}\n\n\n.relative-container {\n    position: relative;\n    left: 20px;\n    margin-bottom: 50px;\n}\n\n.text-backdrop {\n    position: absolute;\n    top: -18px;\n    left: -20px;\n    z-index: -1;\n    width: 100px;\n}\n\n@media only screen and (min-width: 1000px) {\n    .title {\n        font-size: 50px;\n    }\n\n    .text-backdrop {\n        width: 125px;\n    }\n\n    .relative-container {\n        margin-bottom: 80px;\n    }\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "@font-face {\n    font-family: \"Nimbus Sans L\";\n    src: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n    font-weight: bold;\n    font-style: normal;\n}\n\n@font-face {\n    font-family: \"Nimbus Sans L\";\n    src: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n    font-weight: normal;\n    font-style: italic;\n}\n\n@font-face {\n    font-family: \"Young Serif\";\n    src: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n    font-weight: normal;\n    font-style: normal;\n}\n\n*, *::before, *::after {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    font-size: 100%;\n}\n\n:root {\n    --main-color: #e55637;\n    --secondary-color: #f9aa0d;\n    --background-color: #efc7c5;\n    --nimbus: \"Nimbus Sans L\";\n    --young-serif: \"Young Serif\";\n    --nav-border: 2px solid var(--main-color);\n    --media-query-width:\n}\n\nbody {\n    background-color: var(--background-color);\n}\n\n/* content */\n.content {\n    max-width: 1600px;\n    margin: 0 auto;\n    padding: 0 30px;\n}\n\n/* text */\n\n.title {\n    font-family: \"Young Serif\";\n    color: var(--main-color);\n    font-size: 40px;\n    justify-self: start;\n    margin: 0 !important;\n}\n\n.secondary-text {\n    font-family: var(--nimbus);\n    color: var(--main-color);\n    padding-bottom: 20px;\n}\n\n\n.relative-container {\n    position: relative;\n    left: 20px;\n    margin-bottom: 50px;\n}\n\n.text-backdrop {\n    position: absolute;\n    top: -18px;\n    left: -20px;\n    z-index: -1;\n    width: 100px;\n}\n\n@media only screen and (min-width: 1000px) {\n    .title {\n        font-size: 50px;\n    }\n\n    .text-backdrop {\n        width: 125px;\n    }\n\n    .relative-container {\n        margin-bottom: 80px;\n    }\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -6853,8 +6834,11 @@ function loadAbout() {
     credits.append(creditsTitle, creditsText);
     aboutPage.append(about, map, credits);   
 
-    return aboutPage;
+
+    const contentDiv = document.querySelector(".content")
+    contentDiv.append(aboutPage);
 }
+
 
 /***/ }),
 
@@ -6894,8 +6878,8 @@ const loadHome = () => {
     imgContainer.append(star, heroSushi);
     hero.append(imgContainer, text1, text2);
 
-
-    return hero;
+    const contentDiv = document.querySelector(".content");
+    contentDiv.append(hero);
 }
 
 
@@ -6932,6 +6916,175 @@ function loadMap() {
 
 /***/ }),
 
+/***/ "./src/menu.js":
+/*!*********************!*\
+  !*** ./src/menu.js ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "loadMenu": () => (/* binding */ loadMenu)
+/* harmony export */ });
+/* harmony import */ var _titles_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./titles.js */ "./src/titles.js");
+
+
+let sushi = [
+    {
+      "name": "salmon sushi",
+      "price": 3.50,
+      "img": "sushi1",
+    },
+    {
+        "name": "toro nigiri",
+        "price": 4,
+        "img": "sushi2",
+      },
+      {
+        "name": "kanimaki",
+        "price": 3.50,
+        "img": "sushi3",
+      },
+      {
+        "name": "california roll",
+        "price": 3.50,
+        "img": "sushi4",
+      },
+      {
+        "name": "kappamaki",
+        "price": 2.50,
+        "img": "sushi5",
+      },
+      {
+        "name": "philadelphia",
+        "price": 3.50,
+        "img": "sushi6",
+      },
+      {
+        "name": "tekkamaki",
+        "price": 2.50,
+        "img": "sushi7",
+      },
+      {
+        "name": "sushi box",
+        "price": 3.50,
+        "img": "sushi8",
+      },
+
+    ]
+
+let drinks = [
+        {
+          "name": "nigori",
+          "price": 12.50,
+          "img": "drink1",
+        },
+        {
+            "name": "daiginjo-shu",
+            "price": 13.50,
+            "img": "drink2",
+          },
+          {
+            "name": "ginjo-shu",
+            "price": 11.00,
+            "img": "drink3",
+          },
+          {
+            "name": "junmai-shu",
+            "price": 12.00,
+            "img": "drink4",
+          },
+          {
+            "name": "sapporo beer",
+            "price": 4.50,
+            "img": "drink5",
+          },
+          {
+            "name": "asahi beer",
+            "price": 3.50,
+            "img": "drink6",
+          },
+     
+        ]
+
+function createGridElements (grid, array) {
+
+for (let i=0; i<array.length; i++) {
+    const menuItem = document.createElement("div");
+    const menuImg = document.createElement("img");
+    const info = document.createElement("div");
+    const productName = document.createElement("h2");
+    const productPrice = document.createElement("h3");
+
+    menuItem.classList.add("menu-item");
+    menuImg.classList.add("menu-img");
+    info.classList.add("info");
+    productName.classList.add("product-name");
+    productPrice.classList.add("product-price");
+
+
+    console.log(array[i]["img"]);
+    console.log(array[i]["name"]);
+    console.log(array[i]["price"]);
+
+    console.log("../images/menu/" + array[i]["img"] + ".png");
+
+
+
+    menuImg.src = "../images/menu/" + array[i]["img"] + ".png";
+    productName.textContent = array[i]["name"];
+    productPrice.textContent = "$" + array[i]["price"];
+
+    info.append(productName, productPrice);
+    menuItem.append(menuImg, info);
+    grid.append(menuItem);
+}
+}
+
+function loadMenu() {
+const menuPage = document.createElement("div");
+const leftHero = document.createElement("div");
+const heroImg = document.createElement("img");
+const rightContainer = document.createElement("div");
+const menu = document.createElement("div");
+const favoritesTitle = (0,_titles_js__WEBPACK_IMPORTED_MODULE_0__.buildTitle)("favorites");
+const favoritesGrid = document.createElement("div");
+const drinksTitle = (0,_titles_js__WEBPACK_IMPORTED_MODULE_0__.buildTitle)("drinks");
+const drinksGrid = document.createElement("div");
+
+menuPage.classList.add("menu-page");
+leftHero.classList.add("left-hero");
+heroImg.classList.add("img-side");
+rightContainer.classList.add("right-container");
+menu.classList.add("menu");
+favoritesGrid.classList.add("menu-grid");
+drinksGrid.classList.add("menu-grid");
+
+heroImg.src = "../images/menu/sushi-plate.jpg";
+
+createGridElements (favoritesGrid, sushi);
+createGridElements (drinksGrid, drinks);
+
+menu.append(favoritesTitle, favoritesGrid, drinksTitle, drinksGrid);
+rightContainer.append(menu);
+leftHero.append(heroImg);
+menuPage.append(leftHero, rightContainer);
+
+const contentDiv = document.querySelector(".content");
+    contentDiv.append(menuPage);
+}
+
+
+
+
+
+
+
+
+
+/***/ }),
+
 /***/ "./src/nav.js":
 /*!********************!*\
   !*** ./src/nav.js ***!
@@ -6964,10 +7117,20 @@ const loadNav = () => {
     menuListItem.textContent = "Menu";
     aboutListtItem.textContent = "About";
 
+    homeListItem.id = "home";
+    menuListItem.id = "menu";
+    aboutListtItem.id = "about";
+
+    homeListItem.dataset.page = "Home";
+    menuListItem.dataset.page = "Menu";
+    aboutListtItem.dataset.page = "About";
+
     navContainer.append(homeListItem, menuListItem, aboutListtItem);
     navBar.append(logo, navContainer);
     return navBar;
 }
+
+
 
 /***/ }),
 
@@ -7264,10 +7427,10 @@ var __webpack_exports__ = {};
   !*** ./src/index.js ***!
   \**********************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _app_test__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../app/test */ "./app/test.js");
-/* harmony import */ var _nav_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./nav.js */ "./src/nav.js");
-/* harmony import */ var _home_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./home.js */ "./src/home.js");
-/* harmony import */ var _about_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./about.js */ "./src/about.js");
+/* harmony import */ var _nav_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./nav.js */ "./src/nav.js");
+/* harmony import */ var _home_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home.js */ "./src/home.js");
+/* harmony import */ var _about_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./about.js */ "./src/about.js");
+/* harmony import */ var _menu_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./menu.js */ "./src/menu.js");
 /* harmony import */ var _map_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./map.js */ "./src/map.js");
 /* harmony import */ var _styles_main_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./styles/main.css */ "./src/styles/main.css");
 /* harmony import */ var _styles_map_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./styles/map.css */ "./src/styles/map.css");
@@ -7295,15 +7458,48 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
 const contentDiv = document.querySelector(".content")
 
-;(0,_app_test__WEBPACK_IMPORTED_MODULE_0__.test)();
-;
-contentDiv.prepend((0,_nav_js__WEBPACK_IMPORTED_MODULE_1__.loadNav)());
-// contentDiv.append(loadHome());
-contentDiv.append((0,_about_js__WEBPACK_IMPORTED_MODULE_3__.loadAbout)());
-(0,_map_js__WEBPACK_IMPORTED_MODULE_4__.loadMap)();
+contentDiv.prepend((0,_nav_js__WEBPACK_IMPORTED_MODULE_0__.loadNav)());
+(0,_home_js__WEBPACK_IMPORTED_MODULE_1__.loadHome)();
+
+
+const homeMenu = document.getElementById("home");
+const menuMenu = document.getElementById("menu");
+const aboutMenu = document.getElementById("about");
+const menus = [homeMenu, menuMenu, aboutMenu];
+
+function clearPage() {
+    contentDiv.removeChild(contentDiv.children[1]);
+    }
+
+function setCurrentPage(page) {
+    for (let i=0; i<menus.length; i++) {
+        menus[i].classList.remove("current-page");
+    }
+    page.classList.add("current-page");
+}
+
+homeMenu.onclick = () => {
+    setCurrentPage(event.target);
+    clearPage();
+    (0,_home_js__WEBPACK_IMPORTED_MODULE_1__.loadHome)();
+};
+
+menuMenu.onclick = () => {
+    setCurrentPage(event.target);
+    clearPage();
+    (0,_menu_js__WEBPACK_IMPORTED_MODULE_3__.loadMenu)();
+}
+
+aboutMenu.onclick = () => {
+    setCurrentPage(event.target);
+    clearPage();
+    (0,_about_js__WEBPACK_IMPORTED_MODULE_2__.loadAbout)();
+    (0,_map_js__WEBPACK_IMPORTED_MODULE_4__.loadMap)();
+}
+
+
 
 
 

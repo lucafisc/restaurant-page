@@ -55,15 +55,16 @@
 @media only screen and (min-width: 1000px) {
     .hero {
         grid-template-areas:
-            "text1 text1"
+            "text1 none"
             "img text2";
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1.5fr;
     }
 
     .text1 {
-        justify-self: start;
+        justify-self: end;
         align-self: end;
+        text-align: right;
     }
 
     .img-container {

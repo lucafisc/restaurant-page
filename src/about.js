@@ -24,5 +24,7 @@ export function loadAbout() {
     credits.append(creditsTitle, creditsText);
     aboutPage.append(about, map, credits);   
 
-    return aboutPage;
+
+    const contentDiv = document.querySelector(".content")
+    contentDiv.append(aboutPage);
 }

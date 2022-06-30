@@ -23,6 +23,6 @@ export const loadHome = () => {
     imgContainer.append(star, heroSushi);
     hero.append(imgContainer, text1, text2);
 
-
-    return hero;
+    const contentDiv = document.querySelector(".content");
+    contentDiv.append(hero);
 }

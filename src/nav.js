@@ -19,7 +19,16 @@ export const loadNav = () => {
     menuListItem.textContent = "Menu";
     aboutListtItem.textContent = "About";
 
+    homeListItem.id = "home";
+    menuListItem.id = "menu";
+    aboutListtItem.id = "about";
+
+    homeListItem.dataset.page = "Home";
+    menuListItem.dataset.page = "Menu";
+    aboutListtItem.dataset.page = "About";
+
     navContainer.append(homeListItem, menuListItem, aboutListtItem);
     navBar.append(logo, navContainer);
     return navBar;
 }
+
