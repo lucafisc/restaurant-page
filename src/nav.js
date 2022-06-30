@@ -1,3 +1,4 @@
+import logoSrc from "./images/svg/sushi-logo.svg";
 export const loadNav = () => {
     const navBar = document.createElement("nav");
     const logo = document.createElement("img");
@@ -13,7 +14,7 @@ export const loadNav = () => {
     menuListItem.classList.add("nav-item");
     aboutListtItem.classList.add("nav-item");
 
-    logo.src = "./images/svg/sushi-logo.svg";
+    logo.src = logoSrc;
     logo.alt = "Sushi logo";
     homeListItem.textContent = "Home";
     menuListItem.textContent = "Menu";

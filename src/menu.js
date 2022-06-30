@@ -1,5 +1,7 @@
 import { buildTitle } from "./titles.js";
 import heroSrc from "./images/menu/sushi-plate.jpg";
+import menuItem1 from "./images/menu/sushi1.png";
+
 
 
 let sushi = [

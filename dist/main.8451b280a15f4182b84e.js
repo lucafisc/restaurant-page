@@ -6074,6 +6074,21 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./src/images/menu/sushi1.png":
+/*!************************************!*\
+  !*** ./src/images/menu/sushi1.png ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "imgs/sushi1.602f83bcc410b02f4bef4e3e2b19d05b.png");
+
+/***/ }),
+
 /***/ "./src/images/svg/star.svg":
 /*!*********************************!*\
   !*** ./src/images/svg/star.svg ***!
@@ -6980,6 +6995,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _titles_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./titles.js */ "./src/titles.js");
 /* harmony import */ var _images_menu_sushi_plate_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./images/menu/sushi-plate.jpg */ "./src/images/menu/sushi-plate.jpg");
+/* harmony import */ var _images_menu_sushi1_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./images/menu/sushi1.png */ "./src/images/menu/sushi1.png");
+
+
 
 
 
@@ -7141,6 +7159,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "loadNav": () => (/* binding */ loadNav)
 /* harmony export */ });
+Object(function webpackMissingModule() { var e = new Error("Cannot find module './images/svg/sushi-logo.svg'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+
 const loadNav = () => {
     const navBar = document.createElement("nav");
     const logo = document.createElement("img");
@@ -7156,7 +7176,7 @@ const loadNav = () => {
     menuListItem.classList.add("nav-item");
     aboutListtItem.classList.add("nav-item");
 
-    logo.src = "./images/svg/sushi-logo.svg";
+    logo.src = Object(function webpackMissingModule() { var e = new Error("Cannot find module './images/svg/sushi-logo.svg'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
     logo.alt = "Sushi logo";
     homeListItem.textContent = "Home";
     menuListItem.textContent = "Menu";
