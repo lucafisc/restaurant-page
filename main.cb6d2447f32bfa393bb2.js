@@ -6055,7 +6055,97 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "imgs/hero-sushi.2d0756abbe9db93e861d3ec389bcd9fa.png");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "imgs/hero-sushi.png");
+
+/***/ }),
+
+/***/ "./src/images/menu/drink1.png":
+/*!************************************!*\
+  !*** ./src/images/menu/drink1.png ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "imgs/drink1.png");
+
+/***/ }),
+
+/***/ "./src/images/menu/drink2.png":
+/*!************************************!*\
+  !*** ./src/images/menu/drink2.png ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "imgs/drink2.png");
+
+/***/ }),
+
+/***/ "./src/images/menu/drink3.png":
+/*!************************************!*\
+  !*** ./src/images/menu/drink3.png ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "imgs/drink3.png");
+
+/***/ }),
+
+/***/ "./src/images/menu/drink4.png":
+/*!************************************!*\
+  !*** ./src/images/menu/drink4.png ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "imgs/drink4.png");
+
+/***/ }),
+
+/***/ "./src/images/menu/drink5.png":
+/*!************************************!*\
+  !*** ./src/images/menu/drink5.png ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "imgs/drink5.png");
+
+/***/ }),
+
+/***/ "./src/images/menu/drink6.png":
+/*!************************************!*\
+  !*** ./src/images/menu/drink6.png ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "imgs/drink6.png");
 
 /***/ }),
 
@@ -6070,7 +6160,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "imgs/sushi-plate.117310137fc07cea3babbe034d6703da.jpg");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "imgs/sushi-plate.jpg");
 
 /***/ }),
 
@@ -6085,7 +6175,112 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "imgs/sushi1.602f83bcc410b02f4bef4e3e2b19d05b.png");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "imgs/sushi1.png");
+
+/***/ }),
+
+/***/ "./src/images/menu/sushi2.png":
+/*!************************************!*\
+  !*** ./src/images/menu/sushi2.png ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "imgs/sushi2.png");
+
+/***/ }),
+
+/***/ "./src/images/menu/sushi3.png":
+/*!************************************!*\
+  !*** ./src/images/menu/sushi3.png ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "imgs/sushi3.png");
+
+/***/ }),
+
+/***/ "./src/images/menu/sushi4.png":
+/*!************************************!*\
+  !*** ./src/images/menu/sushi4.png ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "imgs/sushi4.png");
+
+/***/ }),
+
+/***/ "./src/images/menu/sushi5.png":
+/*!************************************!*\
+  !*** ./src/images/menu/sushi5.png ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "imgs/sushi5.png");
+
+/***/ }),
+
+/***/ "./src/images/menu/sushi6.png":
+/*!************************************!*\
+  !*** ./src/images/menu/sushi6.png ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "imgs/sushi6.png");
+
+/***/ }),
+
+/***/ "./src/images/menu/sushi7.png":
+/*!************************************!*\
+  !*** ./src/images/menu/sushi7.png ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "imgs/sushi7.png");
+
+/***/ }),
+
+/***/ "./src/images/menu/sushi8.png":
+/*!************************************!*\
+  !*** ./src/images/menu/sushi8.png ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "imgs/sushi8.png");
 
 /***/ }),
 
@@ -6100,7 +6295,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "imgs/star.ce5a87590b0b27e8aab17279b0c1074b.svg");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "imgs/star.svg");
+
+/***/ }),
+
+/***/ "./src/images/svg/sushi-logo.svg":
+/*!***************************************!*\
+  !*** ./src/images/svg/sushi-logo.svg ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "imgs/sushi-logo.svg");
 
 /***/ }),
 
@@ -6902,6 +7112,25 @@ function loadAbout() {
 
 /***/ }),
 
+/***/ "./src/assets.js":
+/*!***********************!*\
+  !*** ./src/assets.js ***!
+  \***********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__("./src/images/menu sync \\.(png%7Cjpe?g%7Csvg)$"));
+
+
+
+
+
+/***/ }),
+
 /***/ "./src/home.js":
 /*!*********************!*\
   !*** ./src/home.js ***!
@@ -6951,6 +7180,52 @@ const loadHome = () => {
 
 /***/ }),
 
+/***/ "./src/images/menu sync \\.(png%7Cjpe?g%7Csvg)$":
+/*!*******************************************************************!*\
+  !*** ./src/images/menu/ sync nonrecursive \.(png%7Cjpe?g%7Csvg)$ ***!
+  \*******************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var map = {
+	"./drink1.png": "./src/images/menu/drink1.png",
+	"./drink2.png": "./src/images/menu/drink2.png",
+	"./drink3.png": "./src/images/menu/drink3.png",
+	"./drink4.png": "./src/images/menu/drink4.png",
+	"./drink5.png": "./src/images/menu/drink5.png",
+	"./drink6.png": "./src/images/menu/drink6.png",
+	"./sushi-plate.jpg": "./src/images/menu/sushi-plate.jpg",
+	"./sushi1.png": "./src/images/menu/sushi1.png",
+	"./sushi2.png": "./src/images/menu/sushi2.png",
+	"./sushi3.png": "./src/images/menu/sushi3.png",
+	"./sushi4.png": "./src/images/menu/sushi4.png",
+	"./sushi5.png": "./src/images/menu/sushi5.png",
+	"./sushi6.png": "./src/images/menu/sushi6.png",
+	"./sushi7.png": "./src/images/menu/sushi7.png",
+	"./sushi8.png": "./src/images/menu/sushi8.png"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "./src/images/menu sync \\.(png%7Cjpe?g%7Csvg)$";
+
+/***/ }),
+
 /***/ "./src/map.js":
 /*!********************!*\
   !*** ./src/map.js ***!
@@ -6995,7 +7270,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _titles_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./titles.js */ "./src/titles.js");
 /* harmony import */ var _images_menu_sushi_plate_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./images/menu/sushi-plate.jpg */ "./src/images/menu/sushi-plate.jpg");
-/* harmony import */ var _images_menu_sushi1_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./images/menu/sushi1.png */ "./src/images/menu/sushi1.png");
+/* harmony import */ var _assets_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets.js */ "./src/assets.js");
+
+
+
 
 
 
@@ -7082,6 +7360,8 @@ let drinks = [
 
 function createGridElements (grid, array) {
 
+ 
+
 for (let i=0; i<array.length; i++) {
     const menuItem = document.createElement("div");
     const menuImg = document.createElement("img");
@@ -7095,7 +7375,7 @@ for (let i=0; i<array.length; i++) {
     productName.classList.add("product-name");
     productPrice.classList.add("product-price");
 
-    menuImg.src = "./images/menu/" + array[i]["img"] + ".png";
+    menuImg.src = "./imgs/" + array[i]["img"] + ".png"
     productName.textContent = array[i]["name"];
     productPrice.textContent = "$" + array[i]["price"];
 
@@ -7106,6 +7386,12 @@ for (let i=0; i<array.length; i++) {
 }
 
 function loadMenu() {
+
+  console.log( _assets_js__WEBPACK_IMPORTED_MODULE_2__["default"].keys());
+
+;
+ 
+
 const menuPage = document.createElement("div");
 const leftHero = document.createElement("div");
 const heroImg = document.createElement("img");
@@ -7134,6 +7420,8 @@ rightContainer.append(menu);
 leftHero.append(heroImg);
 menuPage.append(leftHero, rightContainer);
 
+
+
 const contentDiv = document.querySelector(".content");
     contentDiv.append(menuPage);
 }
@@ -7159,7 +7447,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "loadNav": () => (/* binding */ loadNav)
 /* harmony export */ });
-Object(function webpackMissingModule() { var e = new Error("Cannot find module './images/svg/sushi-logo.svg'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+/* harmony import */ var _images_svg_sushi_logo_svg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./images/svg/sushi-logo.svg */ "./src/images/svg/sushi-logo.svg");
 
 const loadNav = () => {
     const navBar = document.createElement("nav");
@@ -7176,7 +7464,7 @@ const loadNav = () => {
     menuListItem.classList.add("nav-item");
     aboutListtItem.classList.add("nav-item");
 
-    logo.src = Object(function webpackMissingModule() { var e = new Error("Cannot find module './images/svg/sushi-logo.svg'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+    logo.src = _images_svg_sushi_logo_svg__WEBPACK_IMPORTED_MODULE_0__["default"];
     logo.alt = "Sushi logo";
     homeListItem.textContent = "Home";
     menuListItem.textContent = "Menu";
@@ -7510,6 +7798,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _fortawesome_fontawesome_free_js_all_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @fortawesome/fontawesome-free/js/all.js */ "./node_modules/@fortawesome/fontawesome-free/js/all.js");
 /* harmony import */ var _fortawesome_fontawesome_free_js_all_js__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_fontawesome_free_js_all_js__WEBPACK_IMPORTED_MODULE_12__);
 /* harmony import */ var _fortawesome_fontawesome_free_css_all_css__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @fortawesome/fontawesome-free/css/all.css */ "./node_modules/@fortawesome/fontawesome-free/css/all.css");
+/* harmony import */ var _images_menu_drink1_png__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./images/menu/drink1.png */ "./src/images/menu/drink1.png");
 
 
 
