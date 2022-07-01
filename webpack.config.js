@@ -23,13 +23,14 @@ module.exports = {
       {
         test: /\.(svg|png|jpg|gif)$/i,
         use: {
-          loader: "file-loader",
+          loader: "file-loader", 
           options: {
-            name: "[name].[hash].[ext]",
+            name: "[name].[ext]",
             outputPath: "imgs"
           }
         }
       }
+      
     ],
   },
   plugins: [new HtmlWebpackPlugin({

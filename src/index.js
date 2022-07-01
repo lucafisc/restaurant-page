@@ -12,7 +12,7 @@ import "./styles/menu.css";
 import "./styles/about.css";
 import "@fortawesome/fontawesome-free/js/all.js";
 import "@fortawesome/fontawesome-free/css/all.css";
-
+import img from './images/menu/drink1.png';
 
 const contentDiv = document.querySelector(".content")
 

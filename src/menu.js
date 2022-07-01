@@ -1,6 +1,9 @@
 import { buildTitle } from "./titles.js";
 import heroSrc from "./images/menu/sushi-plate.jpg";
-import menuItem1 from "./images/menu/sushi1.png";
+import assets from "./assets.js";
+
+
+
 
 
 
@@ -84,6 +87,8 @@ let drinks = [
 
 function createGridElements (grid, array) {
 
+ 
+
 for (let i=0; i<array.length; i++) {
     const menuItem = document.createElement("div");
     const menuImg = document.createElement("img");
@@ -97,7 +102,7 @@ for (let i=0; i<array.length; i++) {
     productName.classList.add("product-name");
     productPrice.classList.add("product-price");
 
-    menuImg.src = "./images/menu/" + array[i]["img"] + ".png";
+    menuImg.src = "./imgs/" + array[i]["img"] + ".png"
     productName.textContent = array[i]["name"];
     productPrice.textContent = "$" + array[i]["price"];
 
@@ -108,6 +113,12 @@ for (let i=0; i<array.length; i++) {
 }
 
 export function loadMenu() {
+
+  console.log( assets.keys());
+
+;
+ 
+
 const menuPage = document.createElement("div");
 const leftHero = document.createElement("div");
 const heroImg = document.createElement("img");
@@ -135,6 +146,8 @@ menu.append(favoritesTitle, favoritesGrid, drinksTitle, drinksGrid);
 rightContainer.append(menu);
 leftHero.append(heroImg);
 menuPage.append(leftHero, rightContainer);
+
+
 
 const contentDiv = document.querySelector(".content");
     contentDiv.append(menuPage);
